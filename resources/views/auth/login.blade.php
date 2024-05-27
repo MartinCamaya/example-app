@@ -33,7 +33,7 @@
         </div>
 
         <div class="col-12">
-            <x-primary-button class="btn btn-primary w-100">
+            <x-primary-button class="btn btn-primary w-100" style="background-color:maroon; color:gold;">
                 {{ __('Log in') }}
             </x-primary-button>
         </div>
