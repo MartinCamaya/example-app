@@ -5,7 +5,7 @@
         </h2>
 
         <p class="mt-1  text-sm text-gray-600 dark:text-gray-400" >
-            {{ __("Update your account's profile information and email address.") }}
+            {{ __("This is where you can edit your information.") }}
         </p>
     </header>
 
@@ -48,7 +48,7 @@
         </div>
 
         <div class="flex items-center gap-4">
-            <x-primary-button class="btn btn-primary w-100">{{ __('Save') }}</x-primary-button>
+            <x-primary-button class="btn btn-primary w-100" style="background-color:maroon;">{{ __('Save') }}</x-primary-button>
 
             @if (session('status') === 'profile-updated')
                 <p
